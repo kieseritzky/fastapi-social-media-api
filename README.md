@@ -35,17 +35,17 @@ The project has the following features:
    Open the folder in vs code or any other editor.
    Create a .env file.
    Add the Following:
-   ```
-  DATABASE_HOSTNAME=localhost
-  DATABASE_PORT=5432
-  DATABASE_USERNAME=yourdatabaseserverusername
-  DATABASE_PASSWORD=yourdatabaseserverpassword
-  DATABASE_NAME=databasenameofyourpostgresqldatabase
-  SECRET_KEY=anyrandomlongstringofkeys
-  ALGORITHM=HS256
-  ACCESS_TOKEN_EXPIRE_MINUTES=30
 
-   ```
+   DATABASE_HOSTNAME=localhost
+   DATABASE_PORT=5432
+   DATABASE_USERNAME=yourdatabaseserverusername
+   DATABASE_PASSWORD=yourdatabaseserverpassword
+   DATABASE_NAME=databasenameofyourpostgresqldatabase
+   SECRET_KEY=anyrandomlongstringofkeys
+   ALGORITHM=HS256
+   ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+   
 5. **Run migrations:**
 In your ide terminal:
    ```terminal
