@@ -31,7 +31,7 @@ The project has the following features:
    ```
 
 4. **Create .env file:**
-    
+   ``` 
    Open the folder in vs code or any other editor.
    Create a .env file.
    Add the Following:
@@ -44,7 +44,7 @@ The project has the following features:
    SECRET_KEY=anyrandomlongstringofkeys
    ALGORITHM=HS256
    ACCESS_TOKEN_EXPIRE_MINUTES=30
-
+   ```
    
 5. **Run migrations:**
 In your ide terminal:
